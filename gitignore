@@ -1,0 +1,207 @@
+Перейти к содержимому
+Поиск или переход к...
+Запросы на извлечение
+Вопросы
+Рынок
+Исследовать
+ 
+@Vitaly891 
+мэнцян81
+/
+git-ignore
+Общественный
+Код
+Вопросы
+Запросы на вытягивание
+1
+Действия
+Проекты
+Вики
+Безопасность
+Идеи
+ 1 филиал
+ 0 тегов
+Последний коммит
+@mengqiang81
+mengqiang81 изменить файл gitignore для linux
+524е593
+on 23 Дек 2015
+Статистика Git
+ 8 коммитов
+Файлы
+Тип
+Имя
+Последнее сообщение о фиксации
+Время фиксации
+.gitignore
+изменение файла gitignore для linux
+6 лет назад
+README.md
+изменение файла gitignore для linux
+6 лет назад
+README.md
+** Текущее содержимое файла .gitignore аналогично приведенному ниже, и вы можете добавить этот репозиторий в качестве восходящего потока **
+
+## .gitignore for Grails 1.2 and 1.3
+
+# .gitignore for maven 
+target/
+*.releaseBackup
+
+# web application files
+#/web-app/WEB-INF
+
+# IDE support files
+/.classpath
+/.launch
+/.project
+/.settings
+/*.launch
+/*.tmproj
+/ivy*
+/eclipse
+
+# default HSQL database files for production mode
+/prodDb.*
+
+# general HSQL database files
+*Db.properties
+*Db.script
+
+# logs
+/stacktrace.log
+/test/reports
+/logs
+*.log
+*.log.*
+
+# project release file
+/*.war
+
+# plugin release file
+/*.zip
+/*.zip.sha1
+ 
+# older plugin install locations
+/plugins
+/web-app/plugins
+/web-app/WEB-INF/classes
+ 
+# "temporary" build files
+target/
+out/
+build/
+ 
+# other
+*.iws
+ 
+#.gitignore for java
+*.class
+ 
+# Package Files #
+*.jar
+*.war
+*.ear
+ 
+## .gitignore for eclipse
+ 
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+ 
+# External tool builders
+.externalToolBuilders/
+ 
+# Locally stored "Eclipse launch configurations"
+*.launch
+ 
+# CDT-specific
+.cproject
+ 
+# PDT-specific
+.buildpath
+ 
+## .gitignore for intellij
+ 
+*.iml
+*.ipr
+*.iws
+.idea/
+ 
+## .gitignore for linux
+.*
+!.gitignore
+!.gitattributes
+!.editorconfig
+!.eslintrc
+!.travis.yml
+*~
+ 
+## .gitignore for windows
+ 
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+ 
+# Folder config file
+Desktop.ini
+ 
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+ 
+## .gitignore for mac os x
+ 
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+ 
+ 
+# Thumbnails
+._*
+ 
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+## hack for graddle wrapper
+!wrapper/*.jar
+!**/wrapper/*.jar
+Около
+Пользовательский файл .gitignore
+
+Ресурсы
+ Файл readme
+Звезды
+ 46 звезд
+Наблюдателей
+ просмотров: 5
+Вилки
+ 58 вилок
+Релизы
+Релизы не опубликованы
+Пакеты
+Пакеты не опубликованы
+© 2022 GitHub, Inc.
+Условия
+Конфиденциальность
+Безопасность
+Статус
+Документы
+Связаться с GitHub
+Ценообразование
+API
+Тренировка
+Блог
+Около
